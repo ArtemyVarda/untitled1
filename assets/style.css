@@ -16,8 +16,28 @@ header .container{
     margin: 0 auto;
 }
 .logo{
-    height: 50px;
+    height: 100px;
 }
 .avt{
-    height: 50px;
+    height: 40px;
+}
+.login,
+.regist{
+    display: flex;
+    height: 170px;
+    justify-content: center;
+    align-items: center;
+    width: max-content;
+    flex-direction: column;
+}
+.login_body,
+.regist_body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.errorr{
+    color: red;
 }

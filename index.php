@@ -1,3 +1,6 @@
+<?php
+session_start()
+?>
 <!doctype html>
 <html lang="ru">
     <head>
@@ -19,6 +22,12 @@
                 <a href="./pages/login.php"><img src="./assets/imeges/lupa.png" alt="#" class="avt"></a>
             </div>
         </header>
+        <div class="class_content">
+            <div class="container">
+                <h1><?php echo $_SESSION["messadge"];
 
+                ?></h1>
+            </div>
+        </div>
     </body>
 </html>
