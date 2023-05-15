@@ -1,5 +1,6 @@
 <?php
-session_start()
+session_start();
+
 ?>
 <!doctype html>
 <html lang="ru">
@@ -16,7 +17,7 @@ session_start()
             <div class="container">
                 <a href="#"><img src="./assets/imeges/logo.png" alt="#" class="logo"></a>
                 <form method="get">
-                    <input type="text" placeholder="поиск" name="">
+                    <input type="text" placeholder="поиск" name="surf">
                     <input type="submit" value="найти">
                 </form>
                 <a href="./pages/login.php"><img src="./assets/imeges/lupa.png" alt="#" class="avt"></a>
@@ -25,8 +26,8 @@ session_start()
         <div class="class_content">
             <div class="container">
                 <h1><?php echo $_SESSION["messadge"];
-
                 ?></h1>
+
             </div>
         </div>
     </body>
